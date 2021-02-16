@@ -1,30 +1,91 @@
-<!--
-    AD:求一个免费前端教程，如果你知道，欢迎发邮件到q781000648@qq.com
-    AD:大泽主页前端源码广告位招商，联系：q781000648@qq.com
--->
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>主页-大泽小站</title>
-    </head>
-    <body>
-        <a href="/index.html" align="center">主页</a>&nbsp;<a href="/zew/index.html" align="center">泽小白Project</a>
-        <h1 align="center">欢迎访问我的网站</h1>
-        <hr />
-        <a href="https://space.bilibili.com/324267043">访问我的B站空间</a>
-        <br />
-        <a href="https://github.com/daze456/">访问我的Github主页</a>
-        <br />
-        <a href="https://peing.net/zh-CN/1ad1abcb8bb557?event=0">给我提问！</a>
-        <h4>友情链接</h4>
-        <a href="http://www.w3school.com.cn/">W3School 在线教程</a>
-        <br />
-        <a href="http://www.vsqx.top">vsqx分享平台 </a>
-        <br />
-        <a href="https://blog.kasuganosora.cn/">ZeroDream零梦博客</a>
-        <hr />
-        <p>如果你也想添加友链，请点击<a href="https://github.com/BiliDzOfficial/BiliDzOfficial.github.io/issues">这里</a></p>
-        <hr />
-        <p>本网站使用<br /><a href="https://pages.github.com/">GitHub Pages</a><br />构建</p>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>这里是大泽</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <h1>大泽</h1>
+            <h3>妄想创业的准程序员</h3>
+        </header>
+        <main>
+            <div class="item">
+                <div style="background-color: #9cd;" onclick="blockChange(this)">
+                    <p>基本信息</p>
+                </div>
+                <div>
+                    <p>这里是大泽</p>
+                    <p>准前端开发，准运维，异常谨慎的程序员</p>
+                    <p>（谨慎到ban掉统信软件服务器密码登录导致人家公司运维都上不去）</p>
+                    <p>渴望和你交往，但我觉得我可能会说出令你伤心的话</p>
+                    <p>毕竟我自认为智商250，情商0</p>
+                    <p>（智商250有两层意思）</p>
+                    <p>喜欢被别人摸头和摸别人头</p>
+                    <p>我觉得我心理年龄可能跟不上生理年龄发育</p>
+                    <p>PS：想做个可爱的男孩子</p>
+                    <p>PPS：想尽早经济独立</p>
+                </div>
+            </div>
+            <div class="item">
+                <div style="background-color: #290;" onclick="blockChange(this)">
+                    <p>更多信息</p>
+                </div>
+                <div>
+                    <p>因为没钱，喜欢通用性好的东西</p>
+                    <p>因为觉得技术NB，所以喜欢虚拟歌姬和虚拟偶像（结果逐渐玩歪了）</p>
+                    <p>喜欢玩Minecraft，因为它实现了我的梦想</p>
+                    <p>喜欢Electron，因为它通用性好</p>
+                    <p>因为529B站腾讯云事件被安利，所以喜欢看各种中文全年龄视觉小说和galgame</p>
+                    <p>讨厌GHS，真的很烦</p>
+                    <p>永远相信从孩子那割韭菜不长久</p>
+                    <p>喜欢国产，国产大法好</p>
+                    <p>半个docker吹，docker永远的神</p>
+                    <p>虽然一直想换iSulad（别问，问就是国产信仰）</p>
+                </div>
+            </div>
+            <div class="item">
+                <div style="background-color: #900;" onclick="blockChange(this)">
+                    <p>我的技能</p>
+                </div>
+                <div>
+                    <p>会点C++，Arduino的C++</p>
+                    <p>会点Python，真的只会一点</p>
+                    <p>会前端开发，技校水平而已</p>
+                    <p>主用Linux，虽然命令上只会apt cd rm之类简单的玩应，而且最常用的参数是--help</p>
+                    <p>会点docker，技术只到会写dockerfile（还经常忘记打MAINTAINER），暂时还不会docker-compose</p>
+                    <p>会点Minecraft命令（重度依赖命令助手）</p>
+                </div>
+            </div>
+            <div class="item">
+                <div style="background-color: #000;" onclick="blockChange(this)">
+                    <p>去哪找我</p>
+                </div>
+                <div>
+                    <p>电子邮箱：<a href="emailto:q781000648@qq.com">q781000648@qq.com</a></p>
+                    <p>GitHub：<a href="https://github.com/daze456">大泽456</a></p>
+                    <p>Gitee：<a href="https://gitee.com/daze456">大泽456</a></p>
+                    <!-- <p>抖音：<a href="javascript:showqr('dy')">大泽456</a></p>
+                    <p>B站：<a href="https://space.bilibili.com/324267043">大泽456</a>
+                        <a href="javascript:showqr('bl')">显示二维码</a>
+                    </p>
+                    <p>知乎：<a href="https://www.zhihu.com/people/da-ze-123">大泽Official</a>
+                        <a href="javascript:showqr('zh')">显示二维码</a>
+                    </p> -->
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>本网站托管于<a href="https://pages.github.com/">GitHub Pages</a>，由<a href="https://www.cloudflare.com/">Cloudflare</a>提供访问优化服务</p>
+        </footer>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
 </html>
